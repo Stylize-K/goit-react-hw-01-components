@@ -11,6 +11,11 @@
   padding: 20px;
   box-shadow: 5px 5px 15px 5px #000000;
   gap: 35px;
+  transition: scale 300ms;
+}
+
+.profile:hover {
+  scale: 1.05;
 }
 
 .description {

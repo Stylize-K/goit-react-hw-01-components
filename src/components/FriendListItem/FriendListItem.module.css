@@ -10,6 +10,12 @@
   box-shadow: 5px 5px 15px 5px #000000;
   border-radius: 30px;
   padding: 15px;
+  transition: scale 300ms, transform 300ms;
+}
+
+.item:hover {
+  scale: 1.05;
+  transform: rotate(3deg);
 }
 
 .statusOnline {

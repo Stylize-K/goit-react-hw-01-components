@@ -8,6 +8,11 @@
   width: 800px;
   padding: 20px;
   margin-bottom: 30px;
+  transition: scale 300ms;
+}
+
+.transactionHistory:hover {
+  scale: 1.05;
 }
 
 .tableHead {

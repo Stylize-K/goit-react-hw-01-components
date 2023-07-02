@@ -10,9 +10,16 @@
   padding: 20px;
   box-shadow: 5px 5px 15px 5px #000000;
   gap: 35px;
+  transition: scale 300ms;
 }
+
+.statistics:hover {
+  scale: 1.05;
+}
+
 .title {
 }
+
 .statList {
   list-style: none;
   display: flex;
@@ -28,7 +35,14 @@
 
   width: 70px;
   height: 70px;
+  transition: scale 300ms, transform 300ms;
 }
+
+.item:hover {
+  scale: 1.2;
+  transform: rotate(-5deg);
+}
+
 .label {
   font-size: 22px;
   color: #fff;
