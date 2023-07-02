@@ -41,6 +41,7 @@
   font-size: 24px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 35px;
   list-style: none;
 }
@@ -50,6 +51,7 @@
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  border: 1px soled black;
 }
 .label {
   font-size: 16px;
