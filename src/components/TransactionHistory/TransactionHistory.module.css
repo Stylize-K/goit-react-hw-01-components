@@ -30,6 +30,10 @@
   font-size: 28px;
 }
 
+.tableData:hover {
+  background: #be5c5c80;
+}
+
 .tableDataCell {
   width: 350px;
   height: 35px;

@@ -29,3 +29,7 @@
   composes: statusOnline;
   background-color: red;
 }
+
+.name {
+  font-weight: 400;
+}

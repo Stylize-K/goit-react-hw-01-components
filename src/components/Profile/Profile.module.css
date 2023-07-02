@@ -4,14 +4,15 @@
   background-color: #eabb7d;
   justify-content: center;
   align-items: center;
-
   border: 2px solid #000;
   border-radius: 30px;
   margin-top: 30px;
-  padding: 20px;
+  /* padding: 20px; */
   box-shadow: 5px 5px 15px 5px #000000;
   gap: 35px;
   transition: scale 300ms;
+  width: 350px;
+  overflow: hidden;
 }
 
 .profile:hover {
@@ -19,18 +20,26 @@
 }
 
 .description {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
 .avatar {
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
   border-radius: 50%;
   background-color: #b79262;
+  border: 3px solid #6b4d26;
   margin: 0;
+  transition: scale 300ms;
 }
+
+.avatar:hover {
+  scale: 1.05;
+}
+
 .name {
   font-weight: 700;
 }
@@ -45,18 +54,22 @@
 .stats {
   font-size: 24px;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 35px;
+  justify-content: space-around;
   list-style: none;
+  background-color: #b79262;
+  border-top: 1px solid #6b4d26;
+
+  width: 100%;
 }
 
 .statitem {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px;
-  border: 1px soled black;
+  border: 1px solid #6b4d26;
+  width: 100%;
+  padding: 10px;
 }
 .label {
   font-size: 16px;
