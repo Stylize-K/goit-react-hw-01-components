@@ -1,11 +1,25 @@
 .item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 45px;
+  border: 2px solid #000;
+  width: 420px;
+  background-color: #eabb7d;
+  box-shadow: 5px 5px 15px 5px #000000;
+  border-radius: 30px;
+  padding: 15px;
 }
 
-.status {
+.statusOnline {
+  width: 25px;
+  height: 25px;
+  background-color: green;
+  border-radius: 50%;
 }
 
-.avatar {
-}
-
-.name {
+.statusOffline {
+  composes: statusOnline;
+  background-color: red;
 }
